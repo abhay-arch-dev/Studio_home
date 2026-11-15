@@ -1,0 +1,29 @@
+{
+  "defaultPaletteKey": "terracotta",
+  "palettes": {
+    "terracotta": {
+      "id": "terracotta",
+      "name": "Terracotta",
+      "throwColor": 12082232,
+      "cushionColor": 14263361,
+      "curtainColor": 14272430,
+      "rugColor": 13809548
+    },
+    "sage": {
+      "id": "sage",
+      "name": "Sage & sand",
+      "throwColor": 8360306,
+      "cushionColor": 14733233,
+      "curtainColor": 11779750,
+      "rugColor": 14207144
+    },
+    "indigo": {
+      "id": "indigo",
+      "name": "Indigo",
+      "throwColor": 3103341,
+      "cushionColor": 13214315,
+      "curtainColor": 13226459,
+      "rugColor": 13682100
+    }
+  }
+}

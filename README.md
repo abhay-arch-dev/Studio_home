@@ -14,15 +14,15 @@ All colors, dimensions, camera presets, material definitions, furniture placemen
 src/
 ├── config/
 │   ├── types.ts            # Complete TypeScript interfaces for all data structures
-│   ├── theme.ts            # UI color tokens (light & dark mode), typography & labels
-│   ├── finishes.ts         # 21 furniture finish presets (hex, grain RGB, amount)
-│   ├── palettes.ts         # Textile color palettes (Terracotta, Sage & sand, Indigo)
-│   ├── lighting.ts         # Lighting configurations (Day / Evening intensities & vectors)
-│   ├── materials.ts        # 3D material specs (roughness, metalness, colors)
-│   ├── roomGeometry.ts     # Room shell dimensions and boundaries
+│   ├── theme.json          # UI color tokens (light & dark mode), typography & labels
+│   ├── finishes.json       # 21 furniture finish presets (hex, grain RGB, amount)
+│   ├── palettes.json       # Textile color palettes (Terracotta, Sage & sand, Indigo)
+│   ├── lighting.json       # Lighting configurations (Day / Evening intensities & vectors)
+│   ├── materials.json      # 3D material specs (roughness, metalness, colors)
+│   ├── roomGeometry.json   # Room shell dimensions and boundaries
 │   ├── layouts/
-│   │   ├── layoutB.ts      # Layout B placements, shopping list, views, labels
-│   │   └── layoutA.ts      # Layout A placements, shopping list, views, labels
+│   │   ├── layoutB.json    # Layout B placements, shopping list, views, labels
+│   │   └── layoutA.json    # Layout A placements, shopping list, views, labels
 │   └── index.ts            # Unified barrel export
 ├── 3d/
 │   ├── textureGenerator.ts # Procedural canvas textures (wood grain, tiles, granite, rug, art)

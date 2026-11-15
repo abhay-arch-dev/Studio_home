@@ -1,0 +1,40 @@
+{
+  "lightingPresets": {
+    "day": {
+      "sunIntensity": 1.8,
+      "hemiIntensity": 0.32,
+      "c1Intensity": 0.35,
+      "c2Intensity": 0.3,
+      "lampIntensity": 0.45,
+      "exposure": 1.05,
+      "shadeEmissiveIntensity": 0.2,
+      "envMapIntensity": 1.0,
+      "bgColor": 14542570
+    },
+    "eve": {
+      "sunIntensity": 0,
+      "hemiIntensity": 0.05,
+      "c1Intensity": 0.22,
+      "c2Intensity": 0.25,
+      "lampIntensity": 1.7,
+      "exposure": 1.0,
+      "shadeEmissiveIntensity": 0.9,
+      "envMapIntensity": 0.22,
+      "bgColor": 1712944
+    }
+  },
+  "lightingVectors": {
+    "sunPosition": [9, 5.2, 2.6],
+    "sunTarget": [2, 0, 2.0],
+    "c1Position": [1.8, 2.6, 1.8],
+    "c2Position": [2.6, 2.6, -0.8],
+    "skyColorHex": 14542570,
+    "nightColorHex": 1712944,
+    "hemisphereSkyColor": 16777215,
+    "hemisphereGroundColor": 14274502,
+    "sunColor": 16773336,
+    "pointLightColor": 16773856,
+    "lampColor": 16763274,
+    "underCabinetColor": 16769712
+  }
+}

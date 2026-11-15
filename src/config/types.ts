@@ -87,6 +87,21 @@ export interface LightingPresetConfig {
   bgColor: number;
 }
 
+export interface LightingVectorsConfig {
+  sunPosition: [number, number, number];
+  sunTarget: [number, number, number];
+  c1Position: [number, number, number];
+  c2Position: [number, number, number];
+  skyColorHex: number;
+  nightColorHex: number;
+  hemisphereSkyColor: number;
+  hemisphereGroundColor: number;
+  sunColor: number;
+  pointLightColor: number;
+  lampColor: number;
+  underCabinetColor: number;
+}
+
 export interface LayoutConfig {
   id: LayoutVariant;
   name: string;
