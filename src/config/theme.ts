@@ -1,0 +1,34 @@
+import { ThemeColors } from './types';
+
+export const THEME_COLORS: ThemeColors = {
+  bgLight: '#fbfaf8',
+  bgDark: '#15110e',
+  inkLight: '#1f1a16',
+  inkDark: '#efe8e0',
+  muteLight: '#6b625a',
+  muteDark: '#a99e93',
+  lineLight: '#e6e0d8',
+  lineDark: '#33291f',
+  walnutLight: '#5b3521',
+  walnutDark: '#c8936a',
+  accent: '#b85c38',
+  chipLight: '#f1ece6',
+  chipDark: '#231b15',
+  labelYoursBg: '#5b3521',
+  labelYoursText: '#ffffff',
+  labelNewBg: '#ffffff',
+  labelNewText: '#8f3f20',
+  labelNewBorder: '#b85c38',
+  labelRoomBg: 'rgba(30, 30, 30, 0.72)',
+  labelRoomText: '#ffffff',
+  viewportBgDay: '#dde6ea',
+  viewportBgNight: '#1a2330',
+};
+
+export const UI_CONSTANTS = {
+  currencyLocale: 'en-IN',
+  currencySymbol: '₹',
+  brandName: 'Studio Stay',
+  footerNote: 'Studio Stay · 3D styling concept · Built from the floor plan and site photos, November 2026',
+  controlsHint: 'Drag to orbit · scroll or pinch to zoom · right-drag to pan · C toggles captions',
+};
